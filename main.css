@@ -1,0 +1,71 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+#sobre-o-cafe img{
+    width: 100%;
+    max-height: 1024px;
+}
+
+.navbar{
+    background-color: #4A9FFE;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #6495ED;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color:  #DCDEE1;
+}
+
+.section-title{
+    font-family: Pacifico,cursive;
+}
+
+
+#sobre-o-cafe,
+#cardapio{
+    background-color:#DCDEE1 ;
+}
+
+.text-colored{
+    color: #6495ED;;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button{
+    background-color: #5678b6;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover{
+ color:#6495ED;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
+
+.tab-content img{
+    height: 280px;
+}
